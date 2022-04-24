@@ -1,0 +1,151 @@
+
+<html>
+<style>
+ h1 
+ { 
+     font-family: "Lucida Bright", Georgia, serif; 
+     font-size: 23px; 
+     font-style: normal; 
+     font-variant: normal; 
+     font-weight: 700; 
+     line-height: 23px; 
+ } 
+ h3 
+ { 
+     font-family: "Lucida Bright", Georgia, serif; 
+     font-size: 17px;
+     font-style: normal;
+     font-variant: normal;
+     font-weight: 700;
+     line-height: 23px;
+ }  
+ blockquote 
+ { 
+     font-family: "Lucida Bright", Georgia, serif; 
+     font-size: 17px; font-style: normal; 
+     font-variant: normal; 
+     font-weight: 400; 
+     line-height: 23px; 
+ } 
+ pre 
+ { 
+     font-family: "Lucida Bright", Georgia, serif; 
+     font-size: 11px; 
+     font-style: normal; 
+     font-variant: normal; 
+     font-weight: 400; 
+     line-height: 23px; 
+ }
+ p
+ {
+     font-family: "Lucida Bright", Georgia, serif; 
+     font-size: 14px; 
+     font-style: normal; 
+     font-variant: normal; 
+     font-weight: 400; 
+     line-height: 23px;
+     text-align: center;
+     font-size: 35px;
+ }
+ body
+ {
+    text-align: center;
+    color: black;
+    background-color: lightgrey;
+    width:100%;
+    height:100%;
+ }
+ canvas
+ {
+     width:100%;
+     alignment-adjust: central;
+     align-items: center;
+ }
+.navbar
+{
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar a
+{
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+}
+
+
+.subnav
+{
+    float:left;
+    overflow: hidden
+}
+.subnav .subnavbtn
+{
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.navbar a:hover, .subnav:hover .subnavbtn
+{
+    background-color: black;
+}
+.subnav-content
+{
+    display:none;
+    position: absolute;
+    left: 0;
+    background-color: black;
+    width:100%;
+    z-index:1;
+}
+.subnav-content a
+{
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+.subnav-content a:hover
+{
+    background-color: #eee;
+    color: black;
+}
+.subnav:hover .subnav-content
+{
+    display:block;
+}
+</style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <head>
+        <title>The Health Whiz</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="home.html">Home</a><!-- comment -->
+            <a href="about.html">About</a>
+            <div class="subnav">
+                <button class="subnavbtn">Covid Information<i class ="fa fa-caret-down"></i></button><!-- comment -->
+                <div class ="subnav-content">
+                    <a href="weekDeaths.html">Provisional Deaths By Week</a><!-- comment -->
+                    <a href="agegenderDeaths.html">Provisional Deaths By Age and Sex</a><!-- comment -->
+                    <a href="stateDeaths.html">Provisional Deaths By State</a><!-- comment -->
+                </div>
+            </div>
+            <a href="login.html">Get More Information!</a>
+        </div>
+        <h1 style="text-align: center;"><img src="The Health Whiz.png" alt="Logo" width="150" height="150"></h1>
+        <h1>About</h1>
+        <h2 style="text-align: center;">The purpose of the Health Whiz is to provide helpful Covid data, guided by a team of dedicated computer scientists deriving data directly from the CDC.</h2>
+        <h2 style="text-align: center;">Our team:</h2><!-- comment -->
+        <h3 style="text-align:center;">Isaiah Freeman<br>Laquawne Depriest<br>Dasia Carter<br>Christian Mills<br>Taniyah Epps<br>Taliyah Bland<br></h3><!-- comment -->
+        <h3 style="text-align:right">-The Coding Underground</h3>
+</html>
