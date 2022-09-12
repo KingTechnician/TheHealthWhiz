@@ -11,5 +11,21 @@ CSV parsing are implemented by D3.js
 Email Service is provided by EmailJS
 
 Next steps:
+
 -Interactivity for charts
+
 -More tabs on pages for different types of charts
+
+# Version 1.1
+Amcharts has been identified as an easier way of implementing the charts. This has been reflected and used in the stateDeaths.html file, soon to be implemented across the rest of the html files.
+
+Tabs were also added to the stateDeaths.html file, that shows various representations of the data.
+
+Amcharts also includes better interactivity with charts.
+
+Next steps:
+
+-Implementing the tab system (as applicable) for other pages on the website
+
+-Consideing a timed system for updating the Covid statistics
+
